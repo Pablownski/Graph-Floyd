@@ -3,9 +3,9 @@ package hoja10;
  * Clase que gestiona el sistema de rutas de transporte usando las demás clases del proyecto.
  */
 public class GestorTransporte {
-    private final RedTransporte red;
-    private final CalculadoraRutas calculadora;
-    private final AnalizadorCentro analizador;
+    private  RedTransporte red;
+    private  CalculadoraRutas calculadora;
+    private  AnalizadorCentro analizador;
 
     public GestorTransporte() {
         red = new RedTransporte();
